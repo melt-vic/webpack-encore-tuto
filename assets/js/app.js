@@ -6,7 +6,7 @@
  */
 
 // any CSS you import will output into a single css file (app.css in this case)
-import '../css/app.css';
+import '../css/app.scss';
 import getNiceMessage from './get_nice_message';
 import $ from 'jquery';     // Si no se usa ./ Webpack lo busca dentro de ./node_modules
 //global.$ = $;  global es específico de Webpack. Hace la variable global, sólo útil para legacy code

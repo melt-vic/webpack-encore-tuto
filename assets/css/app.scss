@@ -1,0 +1,12 @@
+@import "helper/variables";
+
+@import "~bootstrap/"; /* Con ~ se indica que parta de node_modules/ En el fichero node_modules/bootstrap/package.json el valor del índice "style" le indica el path al fichero css  */
+@import "~font-awesome";
+
+@import "./layout/header"; /* No hace falta el _ inicial */
+@import "./layout/footer";
+
+@import "./components/ad";
+@import "./components/articles";
+@import "./components/profile";
+@import "./components/sortable";
