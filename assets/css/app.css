@@ -1,3 +1,6 @@
+@import "~bootstrap/"; /* Con ~ se indica que parta de node_modules/ En el fichero node_modules/bootstrap/package.json el valor del índice "style" le indica el path al fichero css  */
+@import "~font-awesome";
+
 body {
     position: relative;
     background: #efefee;
@@ -224,13 +227,13 @@ html {height:100%}
 /* FOOTER */
 
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 60px; /* Set the fixed height of the footer here */
-  line-height: 60px; /* Vertically center the text there */
-  background-color: #fff;
-  margin-top: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #fff;
+    margin-top: 10px;
 }
 
 /* Sortable */
