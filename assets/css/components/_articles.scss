@@ -66,54 +66,6 @@
   border-radius: 5px;
 }
 
-/* ARTICLE SHOW PAGE */
-
-.show-article-container {
-  width: 100%;
-  background-color: #fff;
-}
-
-.show-article-container.show-article-container-border-green {
-  border-top: 3px solid green;
-  border-radius: 3px;
-}
-
-.show-article-img {
-  width: 250px;
-  height: auto;
-  border-radius: 5px;
-}
-
-.show-article-title {
-  font-size: 2em;
-}
-
-.like-article, .like-article:hover {
-  color: red;
-  text-decoration: none;
-}
-
-@media (max-width: 991px) {
-  .show-article-title {
-    font-size: 1.5em;
-  }
-
-  .show-article-title-container {
-    max-width: 220px;
-  }
-}
-
-.article-text {
-  margin-top: 20px;
-}
-
-.share-icons i {
-  font-size: 1.5em;
-}
-
-.comment-container {
-  max-width: 600px;
-}
 
 .comment-img {
   width: 50px;

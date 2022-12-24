@@ -7,9 +7,9 @@
 
 // any CSS you import will output into a single css file (app.css in this case)
 import '../css/app.scss';
-import getNiceMessage from './get_nice_message';
+import getNiceMessage from './components/get_nice_message';
 import $ from 'jquery';     // Si no se usa ./ Webpack lo busca dentro de ./node_modules
-//global.$ = $;  global es específico de Webpack. Hace la variable global, sólo útil para legacy code
+//global.$ = $;  //global es específico de Webpack. Hace la variable global, sólo útil para legacy code
 import 'bootstrap';     // Bootstrap es un plugin de jquery. Los plugins de jQuery no retornan un valor sino que modifican jQuery añadiéndolo funciones. En consecuencia, no hace fatal import x from 'bootstrap'
 
 console.log(getNiceMessage(6));
