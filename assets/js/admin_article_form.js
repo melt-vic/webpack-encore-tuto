@@ -2,12 +2,16 @@ import $ from 'jquery';
 import Dropzone from 'dropzone';
 import 'dropzone/dist/dropzone.css';
 import Sortable from 'sortablejs';
-import './components/algolia-autocomplete';  // No es "import from" pq algolia-autocomplete.js no exporta nada
-import '../css/algolia-autocomplete.scss';
+import autocomplete from './components/algolia-autocomplete';
 
 Dropzone.autoDiscover = false;
 
 $(document).ready(function() {
+    const $autoComplete = $('.js-user-autocomplete');
+    if (!$autoComplete.is(':disabled')) {
+        autocomplete($autoComplete, 'users', 'email');
+    }
+
     const $referenceList = $('.js-reference-list');
     if ($referenceList[0]) {
         var referenceList = new ReferenceList($('.js-reference-list'));
