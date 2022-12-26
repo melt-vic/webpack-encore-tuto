@@ -61,6 +61,7 @@ Encore
 
     // enables Sass/SCSS support
     .enableSassLoader()
+    .enablePostCssLoader()      // Para generar css compatible con navegadores antiguos
 
     .copyFiles({
         from: './assets/images',

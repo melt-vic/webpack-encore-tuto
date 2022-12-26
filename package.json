@@ -6,6 +6,7 @@
         "core-js": "^3.0.0",
         "dropzone": "5.5",
         "file-loader": "^6.0.0",
+        "postcss-loader": "^3.0",
         "regenerator-runtime": "^0.13.2",
         "sass": "^1.57.1",
         "sass-loader": "^7.0.1",
@@ -22,6 +23,7 @@
         "build": "encore production --progress"
     },
     "dependencies": {
+        "autoprefixer": "9.5",
         "bootstrap": "4.3",
         "font-awesome": "4.7",
         "jquery": "3.4",
